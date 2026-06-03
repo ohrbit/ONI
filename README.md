@@ -9,6 +9,10 @@ Welcome to the official hardware and development repository for the **ONI 002 Tr
 
 This project is entirely **Open Source (CC BY-SA 4.0)**, allowing you to print, resize, customize, hack, and evolve the design.
 
+<p>
+  <img src="https://github.com/ohrbit/ONI/blob/main/images/product_3d_print.png" alt="ONI 002" />
+</p>
+
 ---
 
 ## ⚡ Quick Specifications
@@ -24,6 +28,9 @@ This project is entirely **Open Source (CC BY-SA 4.0)**, allowing you to print, 
 ## 🛠️ 3D Printing & Slicing Specifications
 
 The current physical alpha-prototype was successfully sliced and fabricated on an **Elegoo Centum / Neptune series (CC2 setup)** using standard baseline parameters with organic tree/lightning support structures optimized for quick release and minimized surface scarring.
+
+<p align="center">
+  <img src="https://github.com/ohrbit/ONI/blob/main/images/ONI-slicer-model.png" alt="model" width="50%" />
 
 ### 📋 Slicer Profile (Elegoo CC2 Baseline)
 
@@ -42,6 +49,9 @@ Due to the intense cantilever design of the chin plate and the sharp forward pro
 * **Support Overhang Threshold:** `32°` to `38°`
 * **Support Interface:** `22s` layer curing or dense layer interfaces depending on material (PLA/PETG).
 * **Placement:** Baseplate-only contact configuration wherever possible to preserve the high-detail surface of the inner and outer lip lines.
+
+<p align="center">
+  <img src="https://github.com/ohrbit/ONI/blob/main/images/ECC2_Lightning.jpg" alt="sliced" width="50%" />
 
 ---
 
@@ -82,14 +92,18 @@ The ONI 002 design file is split into exactly **30 component IDs**, allowing for
 29 [ACCESS DENIED / RESERVED Left Node]
 30 ONI Base Frame v0001102-rev3 (Core Chassis)
 ```
+<p align="center">
+  <img src="https://github.com/ohrbit/ONI/blob/main/images/multicolor_parts_x30.png" alt="x30" width="50%" />
 
 ---
 
 ## 🔧 Assembly & m3z Integration
 
+Grab the Full 3D Model [here](https://www.hi3d.ai/share/cyberpunk-mecha-oni-samurai-half-mask--21221664331245139b9cb00cb1bd00d5?inviteCode=rE4h9tZQzs&shareType=history_model)
+
 1.  **Chassis Prep:** Clean any residual tree support interfaces from the **Base Frame (ID 30)**.
-2.  **Modular Fastening:** All structural screw channels (e.g., **ID 11, ID 13**) are pre-tapped to accept standard **m3z 3mm hardware connection accessories**. Do not over-torque if printed in standard PLA.
-3.  **Electronics Integration:** Access channels behind the **Ambient Sensor Gates (IDs 08, 09)** and the **CPU Center (ID 17)** are routed with internal wire-guides to support custom microcontrollers, status LEDs, and active fan micro-gates.
+2.  **Modular Fastening:** NOT-YET All structural screw channels (e.g., **ID 11, ID 13**) are pre-tapped to accept standard **m3z 3mm hardware connection accessories**. Do not over-torque if printed in standard PLA.
+3.  **Electronics Integration:** SOON Access channels behind the **Ambient Sensor Gates (IDs 08, 09)** and the **CPU Center (ID 17)** are routed with internal wire-guides to support custom microcontrollers, status LEDs, and active fan micro-gates.
 
 ---
 
