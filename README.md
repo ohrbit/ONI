@@ -27,7 +27,7 @@ This project is entirely **Open Source (CC BY-SA 4.0)**, allowing you to print, 
 
 ## 🛠️ 3D Printing & Slicing Specifications
 
-The current physical alpha-prototype was successfully sliced and fabricated on an **Elegoo Centum / Neptune series (CC2 setup)** using standard baseline parameters with organic tree/lightning support structures optimized for quick release and minimized surface scarring.
+The current physical alpha-prototype was successfully sliced and fabricated on an **Elegoo Centauri Carbon 2 (ECC2)** using standard baseline parameters with organic tree/lightning support structures optimized for quick release and minimized surface scarring.
 
 <p align="center">
   <img src="https://github.com/ohrbit/ONI/blob/main/images/ONI-slicer-model.png" alt="model" width="50%" />
